@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PassengerVehicles">
+      <UniqueIdentifier>{40cca6b7-7bd3-423a-8808-1bd34f207e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FreightVehicles">
+      <UniqueIdentifier>{ec8afe27-385a-4848-86e0-ba07463e2282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PassengerVehicles">
+      <UniqueIdentifier>{96138beb-d1be-4bac-955e-1636b1b6e969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FreightVehicles">
+      <UniqueIdentifier>{e17a6050-76ef-49c8-8cfb-96267c9ab0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{ae6e0b13-12b6-4896-a10f-784cbaf8f8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception">
+      <UniqueIdentifier>{a85e1e16-fc55-40e1-b531-5ee18f3e65ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\List">
+      <UniqueIdentifier>{e1afdd9b-0198-452d-b222-d380fad0cebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enums">
+      <UniqueIdentifier>{5d003ad1-eafb-42c5-b110-0440eceabeb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algoritm">
+      <UniqueIdentifier>{4d07e934-3410-4003-ac79-3ddd38bf14c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreightVehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PassengerVehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DumpTrack.h">
+      <Filter>Header Files\FreightVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="GarbageTruck.h">
+      <Filter>Header Files\FreightVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="Coach.h">
+      <Filter>Header Files\PassengerVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="TrolleyBus.h">
+      <Filter>Header Files\PassengerVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionsCode.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InputException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InputValidator.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionIdEnum.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeIdEnum.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LabWork5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FreightVehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PassengerVehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DumpTrack.cpp">
+      <Filter>Source Files\FreightVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="GarbageTruck.cpp">
+      <Filter>Source Files\FreightVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="Coach.cpp">
+      <Filter>Source Files\PassengerVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="TrolleyBus.cpp">
+      <Filter>Source Files\PassengerVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="InputException.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="InputValidator.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListInterface.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="ListAlgoritms.cpp">
+      <Filter>Source Files\Algoritm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
